@@ -1,0 +1,74 @@
+/* Extracted colors from the logo */
+:root {
+    --primary-color: #1A237E; /* Deep blue from text */
+    --secondary-color: #8B2E1F; /* Wine red from bottle */
+    --accent-color: #E8DFC8; /* Warm beige background */
+    --text-color: #331D12; /* Dark brown for contrast */
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero-image.jpg') center/cover;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.menu, #reservations, #about, #contact {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
